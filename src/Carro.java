@@ -12,7 +12,6 @@ public class Carro {
         this.cor = cor;
     }
 
-    // Método toString para exibir informações do carro
     @Override
     public String toString() {
         return "Carro{" +

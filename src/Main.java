@@ -9,14 +9,11 @@ public class Main {
     public static void main(String[] args) {
         Carro carro1, carroEletrico1;
 
-        // Criando objetos Carro e CarroEletrico
         carro1 = new Carro("Fusca", 1980, "Azul");
         carroEletrico1 = new CarroEletrico("Tesla Model S", 2022, "Preto", 300);
 
-        // Inicializando coleções
         List<Carro> listaCarros = new ArrayList<>();
 
-        // Adicionando objetos à lista
         listaCarros.add(carro1);
         listaCarros.add(carroEletrico1);
 
